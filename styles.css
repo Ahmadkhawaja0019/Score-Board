@@ -1,0 +1,65 @@
+body {
+    margin : 20px 10px;
+    background : #1B244A;
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+#header {
+    text-align: center;
+    color: #F94F6D;
+    font-size: 45px;
+}
+
+.teamName {
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+.teamScore {
+    color: #F94F6D;
+    background: #080001;
+    text-align: center;
+    padding: 35px 30px;
+    border-radius: 8px;
+    font-size: 50px;
+    width: 70px;
+    height: 75px;
+    border: 2px solid #F94F6D;
+}
+
+.scoreButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.btn {
+    background: #1B244A;
+    color: #EEEEEE;
+    border: 1px solid #F94F6D;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+#newGameBtn{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    background: #1B244A;
+    color: #EEEEEE;
+    font-size: 30px;
+    padding: 5px 10px;
+    border: 2px solid #F94F6D;
+    border-radius: 8px;
+}
